@@ -6,13 +6,28 @@ import BTLayout from './BTLayout/BTLayout';
 import BTContent from './BTLayout/BTSideBar';
 import DataBinding from './DataBinding/DataBinding';
 import HandleEvent from './HandleEvent/HandleEvent';
+import StateDemo from './StateDemo/StateDemo';
+import StyleComponent from './StyleComponent/StyleComponent';
+import TangGiamFontSize from './StateDemo/TangGiamFontSize';
+import ThayDoiMauSac from './StateDemo/ThayDoiMauSac';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import RenderArray from './RenderArray/RenderArray';
 
 function App() {
 
   return (
     <div>
         {/* <DataBinding/> */}
-        <HandleEvent/>
+        {/* <StyleComponent/> */}
+        <StateDemo/>
+        <hr></hr>
+        <TangGiamFontSize/>
+        <hr></hr>
+        <ThayDoiMauSac/>
+        <hr></hr>
+        <BaiTapChonXe/>
+        <hr></hr>
+        <RenderArray/>
     </div>
   );
 }
