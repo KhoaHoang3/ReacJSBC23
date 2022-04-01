@@ -6,13 +6,20 @@ import BTLayout from './BTLayout/BTLayout';
 import BTContent from './BTLayout/BTSideBar';
 import DataBinding from './DataBinding/DataBinding';
 import HandleEvent from './HandleEvent/HandleEvent';
+import StateDemo from './StateDemo/StateDemo';
+import DemoProps from './Props/DemoProps/DemoProps';
+import ShoesShop from './Props/ShoesShop/ShoesShop';
+import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet.js/BaiTapXemChiTiet';
 
 function App() {
 
   return (
     <div>
         {/* <DataBinding/> */}
-        <HandleEvent/>
+        {/* <HandleEvent/> */}
+        {/* <DemoProps/> */}
+        {/* <ShoesShop/> */}
+        <BaiTapXemChiTiet/>
     </div>
   );
 }
