@@ -10,16 +10,19 @@ import StateDemo from './StateDemo/StateDemo';
 import DemoProps from './Props/DemoProps/DemoProps';
 import ShoesShop from './Props/ShoesShop/ShoesShop';
 import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet.js/BaiTapXemChiTiet';
+import TangGiamSoLuong from './DemoRedux/TangGiamSoLuong/TangGiamSoLuong';
 
 function App() {
 
   return (
+    
     <div>
         {/* <DataBinding/> */}
         {/* <HandleEvent/> */}
         {/* <DemoProps/> */}
         {/* <ShoesShop/> */}
-        <BaiTapXemChiTiet/>
+        {/* <BaiTapXemChiTiet/> */}
+        <TangGiamSoLuong/>
     </div>
   );
 }

@@ -16,6 +16,10 @@ export default class SanPham extends Component {
           >
             Xem chi tiết
           </button>
+
+          <button onClick={()=>{
+            this.props.themGioHang(phone)
+          }} className="btn btn-danger ml-2">Thêm giỏ hàng</button>
         </div>
       </div>
     );
