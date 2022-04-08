@@ -11,6 +11,9 @@ import DemoProps from './Props/DemoProps/DemoProps';
 import ShoesShop from './Props/ShoesShop/ShoesShop';
 import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet.js/BaiTapXemChiTiet';
 import TangGiamSoLuong from './DemoRedux/TangGiamSoLuong/TangGiamSoLuong';
+import BaiTapChonXe from './DemoRedux/BaiTapChonXe/BaiTapChonXeRedux';
+import BaiTapChonXeRedux from './DemoRedux/BaiTapChonXe/BaiTapChonXeRedux';
+import BaiTapGioHangRedux from './DemoRedux/BaiTapGioHangRedux/BaiTapGioHangRedux';
 
 function App() {
 
@@ -22,7 +25,9 @@ function App() {
         {/* <DemoProps/> */}
         {/* <ShoesShop/> */}
         {/* <BaiTapXemChiTiet/> */}
-        <TangGiamSoLuong/>
+        {/* <TangGiamSoLuong/> */}
+        {/* <BaiTapChonXeRedux/> */}
+        <BaiTapGioHangRedux/>
     </div>
   );
 }
